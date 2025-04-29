@@ -11,10 +11,10 @@ To write a python program to sort the first half of the list using merge sort.
   • Read each integer and append it to the list arr
  4.Display the original array
  5.Define a function merge(arr, l, m, r) to merge two sorted halves:
-  • Create two temporary arrays L and R for the left and right subarrays
-  • Copy data into temporary arrays
-  • Merge the two temporary arrays back into arr[l..r]
-  • Copy any remaining elements of L[] and R[], if any
+    • Create two temporary arrays L and R for the left and right subarrays
+    • Copy data into temporary arrays
+    • Merge the two temporary arrays back into arr[l..r]
+    • Copy any remaining elements of L[] and R[], if any
  6.Define a recursive function mergeSort(arr, l, r) to sort an array segment:
   • If l < r:
     – Find middle point m
